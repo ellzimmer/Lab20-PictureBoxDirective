@@ -1,0 +1,50 @@
+body {
+	background-color: #FFF6C5;
+}
+
+.header {
+	font: #695D46;
+	font-size: 100px;
+	font-weight: bold;
+	text-align: left;
+	padding: 40px;
+	border: groove 10px #649D46;
+	background: #FF712C;
+	font-family: "Sacramento";
+}
+.group {
+	border-image: #FF712C;
+	background-color: #A1E8D9;
+	border: solid 10px #695D46;
+	padding: 10px;
+	text-align: center;
+}
+
+#pictures {
+	display: inline-block;
+	width: 300px;
+	height: 350px;
+	padding: 8px;
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: solid 5px #CFC291;
+	vertical-align: top;
+}
+.heading {
+	text-align: center;
+	font: #FF712C;
+	font-size: 30px;padding: 8px;
+	margin-left: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: solid 5px #CFC291;
+	vertical-align: top;
+	font-family: "Sacramento";
+	font-weight: bold;
+}
+figcaption {
+	text-align: center;
+	font-weight: bold;
+	font: #CFC291;
+}

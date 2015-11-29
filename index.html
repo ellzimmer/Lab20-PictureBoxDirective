@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Sacramento' rel='stylesheet' type='text/css'>
+	<title>Picture Box Directive</title>
+</head>
+<body ng-app='myMod'>
+	<div class="header">
+		<header>
+			Autumn in New York
+		</header>
+	</div>
+	<div ng-controller="pixController">
+		<div class="group">
+			<pixdir id="pictures" ng-repeat="photo in pics"></pixdir>
+		</div>
+	</div>
+
+<footer>
+	<p><center>
+	 &copy;  Grand Circus Bootcamp</p></center>
+</footer>
+
+<script data-require="angular.js@*" data-semver="1.4.0" src="https://code.angularjs.org/1.4.0/angular.js"></script>
+<script src="script.js"></script>
+<script src="photoDirective.js"></script>
+
+</body>
+
+
+</html>

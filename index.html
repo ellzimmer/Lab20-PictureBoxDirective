@@ -14,7 +14,7 @@
 	</div>
 	<div ng-controller="pixController">
 		<div class="group">
-			<pixdir id="pictures" ng-repeat="photo in pics"></pixdir>
+			<pixdir id="pictures" ng-repeat="image in images" ng-show="image.visible"><img ng-src="img/{{image.src}}" /></pixdir>
 		</div>
 	</div>
 

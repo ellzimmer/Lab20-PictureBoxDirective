@@ -4,7 +4,7 @@ angular
   
 	  return{
  	   restrict: "E",
- 	   template: "<div>{{photo.a}}</div>",
+ 	   template: "<div>{{image.src}}{{image.title}}</div>",
  	   replace: true
   };
 });
